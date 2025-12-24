@@ -13,6 +13,13 @@
 .sidebar {
   background-color: #337be8;
   color: whitesmoke;
+  display:flex;
+  flex-direction: column;
+}
+
+.sidebar > div{
+  margin: 0 0 2em 0;
+  padding: 10px;
 }
 
 .right-panel {
@@ -21,4 +28,18 @@
 
 .sidebar svg {
   fill: whitesmoke;
+}
+
+.sidebar-title{
+  font-size: 1.5rem;
+}
+
+.sidebar-title, .menu-item{
+  display:flex;
+  align-items:center;
+  gap: 10px
+}
+
+svg{
+  width:20%
 }
