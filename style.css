@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  height: 100vh;
+  grid-template-columns: 1fr 6fr;
+}
+
+.sidebar {
+  background-color: #337be8;
+  color: whitesmoke;
+}
+
+.right-panel {
+  background-color: beige;
+}
+
+.sidebar svg {
+  fill: whitesmoke;
+}
