@@ -23,7 +23,18 @@
 }
 
 .right-panel {
-  background-color: beige;
+  background-color:azure;
+  display:grid;
+  grid-template-rows:1fr 4fr;
+}
+
+.right-panel>.content{
+  background-color: #d1d1d1;
+}
+
+.right-panel>.nav-bar{
+  box-shadow: #000000 0px 0px 10px 0px;
+  margin: 0px 0px 5px 0px;
 }
 
 .sidebar svg {
