@@ -54,3 +54,28 @@
 svg{
   width:20%
 }
+
+.nav-bar{
+  display:grid;
+  grid-template: 1fr 1fr/2fr 1fr;
+}
+
+.nav-frame{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  margin:0 4rem 0 4rem;
+}
+
+.nav-frame svg{
+  height: 2rem;
+  width: 2rem;
+}
+
+.nav-frame input{
+  height:1.5rem;
+  flex:1;
+  margin: 5px;
+  border-radius: 1rem;
+}
