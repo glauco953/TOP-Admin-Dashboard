@@ -42,20 +42,21 @@
 }
 
 .sidebar-title{
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .sidebar-title, .menu-item{
   display:flex;
   align-items:center;
-  gap: 10px
+  gap: 10px;
+  font-size:1.5rem
 }
 
 svg{
   width:20%
 }
 
-.nav-bar{
+#nav-bar{
   display:grid;
   grid-template: 1fr 1fr/2fr 1fr;
 }
@@ -78,4 +79,43 @@ svg{
   flex:1;
   margin: 5px;
   border-radius: 1rem;
+}
+
+#thumbnail{
+  height: 3rem;
+  width: 3rem;
+}
+
+.nav-frame, .profile{
+  justify-content:right;
+  gap: 2rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.salutation{
+  justify-content: left;
+  gap: 3rem;
+  font-size: 1.5rem;
+  font-weight:bold;
+}
+
+#profile-name{
+  font-size:6rem;
+}
+
+.nav-frame button{
+  background-color: #337be8;
+  border-color: aliceblue;
+  border-width: 2px;
+  border-radius: 3rem;
+  color:aliceblue;
+  height: 3rem;
+  width: 10rem;
+  font-size: 1.2rem;
+}
+
+#profile-image{
+  height:7rem;
+  width:7rem;
 }
