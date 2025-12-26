@@ -25,7 +25,7 @@
 .right-panel {
   background-color:azure;
   display:grid;
-  grid-template-rows:1fr 4fr;
+  grid-template-rows:auto 1fr;
 }
 
 .right-panel>.content{
@@ -118,4 +118,40 @@ svg{
 #profile-image{
   height:7rem;
   width:7rem;
+}
+
+.content{
+  display:grid;
+  grid-template: 2fr 1fr/4fr 1fr;
+}
+
+.content-left-panel{
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  display:grid;
+  grid-auto-flow: row;
+  grid-template: 1fr/repeat(auto-fit,minmax(15rem, 1fr));
+  gap: 15px;
+}
+
+.content-left-panel h2{
+  font-size:1.3rem;
+  font-weight: bold;
+}
+
+.card{
+  height: 20rem;
+  border-style:solid;
+  border-width:0 0 0 7px;
+  border-left-color:orange;
+  box-shadow: #d1d1d1 0px 5px 6px 0px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.card svg{
+  height:1rem;
+  width:1rem;
 }
